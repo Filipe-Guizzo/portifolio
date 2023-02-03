@@ -1,5 +1,6 @@
-function irPara(event, x, y){
-    window.scroll(x,y)
+function irPara(event, id){
+    let elemento = document.getElementById(id);
+    elemento.scrollIntoView()
     event.preventDefault();
 }
 

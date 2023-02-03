@@ -13,7 +13,11 @@
 </head> 
 <body>
     <main>
-        <aside class="sidebar">
+        <label class="btn-sidebar" id="sidebar-btn">
+            <i class="fa-solid fa-arrow-left" id="sidebar-icon"></i>
+            <input type="checkbox" id="sidebar-input" hidden onclick="sidebar()">
+        </label>
+        <aside class="sidebar" id="sidebar">
             <div class="perfil-box">
                 <img src="./images/perfil.png" alt="perfil" class="perfil">
             </div>
@@ -21,22 +25,22 @@
                 <nav>
                     <ul>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" onclick="irPara(event, 0,0)">Sobre mim</a>
+                            <a href="#" class="nav-link" onclick="irPara(event, 'sobre')">Sobre mim</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" onclick="irPara(event, 0,500)">Conhecimentos</a>
+                            <a href="#" class="nav-link" onclick="irPara(event, 'conhecimento')">Conhecimentos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" onclick="irPara(event, 0,1100)">Formação</a>
+                            <a href="#" class="nav-link" onclick="irPara(event, 'formacao')">Formação</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" onclick="irPara(event, 0,1500)">Experiencia</a>
+                            <a href="#" class="nav-link" onclick="irPara(event, 'experiencia')">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" onclick="irPara(event, 0,1900)">Extras</a>
+                            <a href="#" class="nav-link" onclick="irPara(event, 'extra')">Extras</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" onclick="irPara(event, 0,2500)">Contato</a>
+                            <a href="#" class="nav-link" onclick="irPara(event, 'contato')">Contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,7 +51,7 @@
                 <h1>Filipe Guizzo Borges</h1>
                 <p>20 anos, programador de sistemas de informação</p>
             </header>
-            <section class="secao">
+            <section class="secao" id="sobre">
                 <div class="secao-title">
                     <h1>Sobre mim</h1>
                 </div>
@@ -56,7 +60,7 @@
                     </p>
                 </div>
             </section>
-            <section class="secao">
+            <section class="secao" id="conhecimento">
                 <div class="secao-title">
                     <h1>Conhecimentos</h1>
                 </div>
@@ -137,7 +141,7 @@
                     </div>
                 </div>
             </section>
-            <section class="secao">
+            <section class="secao" id="formacao">
                 <div class="secao-title">
                     <h1>Formação</h1>
                 </div>
@@ -157,7 +161,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="secao">
+            <section class="secao" id="experiencia">
                 <div class="secao-title">
                     <h1>Experiencia</h1>
                 </div>
@@ -173,7 +177,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="secao">
+            <section class="secao" id="extra">
                 <div class="secao-title">
                     <h1>Atividades Extracurriculares</h1>
                 </div>
@@ -186,7 +190,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="secao">
+            <section class="secao" id="contato">
                 <div class="secao-title">
                     <h1>Contato</h1>
                 </div>
@@ -195,7 +199,7 @@
                         <li class="social-item">
                             <p>                            
                                 <i class="fa-solid fa-envelope"></i>
-                                filipegborges@gmail.com
+                                filipegborges3@gmail.com
                             </p>
                         </li>
                         <li class="social-item">
