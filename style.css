@@ -204,10 +204,11 @@ footer{
     color: #000;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .sidebar{
         position: fixed;
         top: 0;
+        left: 0;
         background-color: #4a7ab5;
         width: 350px;
         height: 100%;
@@ -221,6 +222,20 @@ footer{
 
     .lista-itens{
         flex-direction: column;
+    }
+
+    .container header h1{
+        text-align: center;
+    }
+
+    .container header p{
+        text-align: center;
+        font-size: 16pt;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+
     }
 }
 
