@@ -224,6 +224,10 @@ footer{
         flex-direction: column;
     }
 
+    .container{
+        padding: 0;
+    }
+
     .container header h1{
         text-align: center;
     }
@@ -235,6 +239,7 @@ footer{
     main{
         display: flex;
         justify-content: center;
+        align-items: center;
 
     }
 }
