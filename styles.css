@@ -69,6 +69,7 @@ header{
 .title{
     font-size: 30pt;
     margin: 20px;
+    text-align: center;
 }
 
 .sub-title{
@@ -78,6 +79,7 @@ header{
 
 .paragraph{
     font-size: 20pt;
+    text-align: center;
 }
 
 .division-name-profile{
@@ -131,6 +133,7 @@ section:last-child{
     flex-direction: row;
     justify-content: center;
     align-items: center;    
+    flex-wrap: wrap;
 }
 
 .illustration-img{
@@ -380,5 +383,149 @@ footer::after{
 
     100%{
         clip-path: ellipse(50% 50% at -150% 100%);
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    section{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .illustration-img{
+        width: 400px;
+        object-fit: cover;
+        margin: 20px;
+    }
+
+    .skill{
+        margin: 20px;
+    }
+
+    
+    .list-item{
+        position: relative;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .item-content{
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .formation-icon::before{
+        display: none;
+    
+    }
+    
+    .formation-icon::after{
+        display: none;
+    }
+    
+    .experience-icon::before{
+        display: none;
+    }
+    
+    .experience-icon::after{
+        display: none;
+    } 
+    
+    .project-icon::before{
+        display: none;
+    }
+    
+    .project-icon::after{
+        display: none;
+    }
+    
+    .extra-icon::before{
+        display: none;
+    }
+    
+    .extra-icon::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header{
+        clip-path: ellipse(70% 70% at 50% 20%);
+        padding: 30px;
+    }
+
+    .title{
+        font-size: 25pt;
+        margin: 20px;
+    }
+    
+    .sub-title{
+        font-size: 16pt;
+        margin: 10px;
+    }
+    
+    .paragraph{
+        font-size: 20pt;
+    }
+
+    section{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .illustration-img{
+        width: 250px;
+        object-fit: cover;
+        margin: 20px;
+    }
+
+    .skill{
+        margin: 20px;
+    }
+
+    
+    .list-item{
+        position: relative;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .item-content{
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .formation-icon::before{
+        display: none;
+    
+    }
+    
+    .formation-icon::after{
+        display: none;
+    }
+    
+    .experience-icon::before{
+        display: none;
+    }
+    
+    .experience-icon::after{
+        display: none;
+    } 
+    
+    .project-icon::before{
+        display: none;
+    }
+    
+    .project-icon::after{
+        display: none;
+    }
+    
+    .extra-icon::before{
+        display: none;
+    }
+    
+    .extra-icon::after{
+        display: none;
     }
 }
