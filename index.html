@@ -1,232 +1,201 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Portfólio</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <img src="./assets/foto_perfil.png" alt="profile" class="photo-profile" onContextMenu="return false;" draggable="false">
-        <h1 class="title text-light">
-            Filipe Guizzo Borges
-            <hr class="division-name-profile">
-        </h1>
-        <h3 class="sub-title text-light text-shadow">
-            20 anos, Software Developer
-            <br>
-            Criciúma SC, Rodovia Luiz Rosso, Quarta Linha
-        </h3>
+        <div class="photo">
+            <img src="./assets/foto_perfil.png" alt="perfil-photo">
+        </div>
+        <div class="information">
+            <h1>Filipe Guizzo Borges</h1>
+            <h3>20 anos, Software Developer</h3>
+        </div>
     </header>
     <main>
         <section class="objective">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Objetivo
-                    <hr class="division-section-title">
-                </h1>
+            <div class="title">
+                <h1>Objetivos</h1>
             </div>
-            <div class="section-content flex">
-                <p class="paragraph text-dark">
-                    Desenvolvedor Web ( Frontend ou Backend ).
-                </p>
-                <img src="./assets/dev.svg" alt="dev" class="illustration-img" onContextMenu="return false;" draggable="false">
+            <div class="content">
+                <p>Desenvolvedor Web ( Frontend ou Backend ).</p>
+                <img src="./assets/dev.svg" alt="objective">
             </div>
         </section>
-        <hr class="division-section">
-        <section class="skills">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Conhecimentos
-                    <hr class="division-section-title">
-                </h1>
+        <hr>
+        <section class="skill">
+            <div class="title">
+                <h1>Conhecimentos</h1>
             </div>
-            <div class="section-content">
-                <ul class="skills">
-                    <li class="skill">
-                        <img src="./assets/python.png" alt="python" class="skill-logo">
-                        <h4 class="skill-name">Python</h4>
+            <div class="content-skill">
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        <img src="./assets/django.png" alt="django">
+                        <p>Django</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/django.png" alt="django" class="skill-logo">
-                        <h4 class="skill-name">Django</h4>
+                    <li class="skill-item">
+                        <img src="./assets/python.png" alt="python">
+                        <p>Python</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/html.png" alt="html" class="skill-logo">
-                        <h4 class="skill-name">Html</h4>
+                    <li class="skill-item">
+                        <img src="./assets/html.png" alt="html">
+                        <p>Html</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/css.png" alt="css" class="skill-logo">
-                        <h4 class="skill-name">Css</h4>
+                    <li class="skill-item">
+                        <img src="./assets/css.png" alt="css">
+                        <p>Django</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/js.png" alt="js" class="skill-logo">
-                        <h4 class="skill-name">Java Script</h4>
+                    <li class="skill-item">
+                        <img src="./assets/js.png" alt="js">
+                        <p>JavaScript</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/java.png" alt="java" class="skill-logo">
-                        <h4 class="skill-name">Java</h4>
+                    <li class="skill-item">
+                        <img src="./assets/angular.png" alt="angular">
+                        <p>Angular</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/bootstrap.png" alt="bootstrap" class="skill-logo">
-                        <h4 class="skill-name">Bootstrap</h4>
+                    <li class="skill-item">
+                        <img src="./assets/react.png" alt="react">
+                        <p>React</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/react.png" alt="react" class="skill-logo">
-                        <h4 class="skill-name">React.js</h4>
+                    <li class="skill-item">
+                        <img src="./assets/ionic.png" alt="ionic">
+                        <p>Ionic</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/angular.png" alt="angular" class="skill-logo">
-                        <h4 class="skill-name">Angular</h4>
+                    <li class="skill-item">
+                        <img src="./assets/bootstrap.png" alt="bootstrap">
+                        <p>Bootstrap</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/ionic.png" alt="ionic" class="skill-logo">
-                        <h4 class="skill-name">Ionic</h4>
+                    <li class="skill-item">
+                        <img src="./assets/java.png" alt="java">
+                        <p>Java</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/postgres.png" alt="postgres" class="skill-logo">
-                        <h4 class="skill-name">Postgres</h4>
+                    <li class="skill-item">
+                        <img src="./assets/postgres.png" alt="postgres">
+                        <p>Postgres</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/sql.png" alt="sql" class="skill-logo">
-                        <h4 class="skill-name">Sql</h4>
+                    <li class="skill-item">
+                        <img src="./assets/sql.png" alt="sql">
+                        <p>Sql</p>
                     </li>
-                    <li class="skill">
-                        <img src="./assets/delphi.png" alt="delphi" class="skill-logo">
-                        <h4 class="skill-name">Delphi</h4>
+                    <li class="skill-item">
+                        <img src="./assets/delphi.png" alt="delphi">
+                        <p>Delphi</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <hr class="division-section"> 
+        <hr>
         <section class="formation">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Formação Acadêmica
-                    <hr class="division-section-title">
-                </h1>
+            <div class="title">
+                <h1>Formação</h1>
             </div>
-            <div class="section-content">
-                <ul class="list-items">
-                    <li class="list-item formation-icon">
-                        <p class="item-content">
-                            E.M.E.F José Rosso <strong>| 2007 - 2017 |</strong> Ensino Fundamental
-                        </p>
+            <div class="content-list">
+                <ul class="list">
+                    <li class="item">
+                        <p><i class="bi bi-mortarboard-fill"></i> E.M.E.F José Rosso | 2007 - 2017 | Ensino Fundamental</p>
                     </li>
-                    <li class="list-item formation-icon">
-                        <p class="item-content">
-                            Cedup Abílio Paulo <strong> | 2018 - 2020 | </strong> Ensino Médio e Curso Técnico em informática
-                        </p>
+                    <li class="item">
+                        <p><i class="bi bi-mortarboard-fill"></i> Cedup Abílio Paulo | 2018 - 2020 | Ensino Médio e Curso Técnico em informática</p>
                     </li>
-                    <li class="list-item formation-icon">
-                        <p class="item-content">
-                            Unisatc <strong> | 2023 - 2026 | </strong> Ensino Superior de Engenharia de Software (Cursando)
-                        </p>
+                    <li class="item">
+                        <p><i class="bi bi-mortarboard-fill"></i> Unisatc | 2023 - 2026 | Ensino Superior de Engenharia de Software (Cursando)</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <hr class="division-section">
+        <hr>
         <section class="experience">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Experiência
-                    <hr class="division-section-title">
-                </h1>
+            <div class="title">
+                <h1>Experiência</h1>
             </div>
-            <div class="section-content">
-                <ul class="list-items">
-                    <li class="list-item experience-icon">
-                        <p class="item-content">
-                            E-Topocart <strong>| 2021 - 2023 |</strong> Programador backend django/python
-                        </p>
+            <div class="content-list">
+                <ul class="list">
+                    <li class="item">
+                        <p><i class="bi bi-award-fill"></i> E-Topocart | 2021 - 2023 | Programador backend django/python</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <hr class="division-section">
+        <hr>
         <section class="projects">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Projetos
-                    <hr class="division-section-title">
-                </h1>
+            <div class="title">
+                <h1>Projetos</h1>
             </div>
-            <div class="section-content">
-                <ul class="list-items">
-                    <li class="list-item project-icon">
-                        <a class="item-content" href="https://github.com/Filipe-Guizzo/cadastro-noticias-frontend-react" target="_blank">
-                            Cadastro de noticias (frontend)
-                        </a>
+            <div class="content-list">
+                <ul class="list">
+                    <li class="item">
+                        <a href="https://github.com/Filipe-Guizzo/news_register_frontend" target="_blank"><i class="bi bi-arrow-right-circle-fill"></i> News register - frontend</a>
                     </li>
-                    <li class="list-item project-icon">
-                        <a class="item-content" href="https://github.com/Filipe-Guizzo/cadastro-noticias-backend-django" target="_blank">
-                            Cadastro de noticias (backend)
-                        </a>
+                    <li class="item">
+                        <a href="https://github.com/Filipe-Guizzo/news_register_backend" target="_blank"><i class="bi bi-arrow-right-circle-fill"></i> News register - backend</a>
                     </li>
                 </ul>
             </div>
         </section>
-        <hr class="division-section">
+        <hr>
         <section class="extra">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Atividades Extracurriculares
-                    <hr class="division-section-title">
-                </h1>
+            <div class="title">
+                <h1>Atividades Extracurriculares</h1>
             </div>
-            <div class="section-content">
-                <ul class="list-items">
-                    <li class="list-item extra-icon">
-                        <p class="item-content">
-                            Fecam XXXVII 2019 - Feira de Ciências e Amostras | <strong>Projeto: Radioterapia Infantil</strong>
-                        </p>
+            <div class="content-list">
+                <ul class="list">
+                    <li class="item">
+                        <p><i class="bi bi-bookmark-check-fill"></i> Fecam XXXVII 2019 - Feira de Ciências e Amostras | Projeto: Radioterapia Infantil</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <hr class="division-section">
+        <hr>
         <section class="contact">
-            <div class="section-title">
-                <h1 class="title text-dark">
-                    Contato
-                    <hr class="division-section-title">
-                </h1>
+            <div class="title">
+                <h1>Contato</h1>
             </div>
-            <div class="section-content flex">
-                <ul class="list-items">
-                    <li class="list-item">
-                        <a class="item-content" href="#">
-                            <i class="bi bi-envelope-at contact-icon"></i>filipegborges3@gmail.com
-                        </a>
+            <div class="content">
+                <ul class="list">
+                    <li class="item">
+                        <p><i class="bi bi-envelope"></i> filipe.guizzo.contato@gmail.com</p>
                     </li>
-                    <li class="list-item">
-                        <a class="item-content" href="#">
-                            <i class="bi bi-telephone-plus contact-icon"></i>(48) 99868-3722
-                        </a>
+                    <li class="item">
+                        <p><i class="bi bi-telephone-plus"></i> (48) 99868-3722</p>
                     </li>
-                    <li class="list-item">
-                        <a class="item-content" href="https://github.com/Filipe-Guizzo" target="_blank">
-                            <i class="bi bi-github contact-icon"></i>Github
-                        </a>
+                    <li class="item">
+                        <a href="https://github.com/Filipe-Guizzo" target="_blank"><i class="bi bi-github"></i> Github</a>
                     </li>
-                    <li class="list-item">
-                        <a class="item-content" href="https://www.linkedin.com/in/filipe-guizzo-271b361a2/" target="_blank">
-                            <i class="bi bi-linkedin contact-icon"></i>Linkedin
-                        </a>
+                    <li class="item">
+                        <a href="https://www.linkedin.com/in/filipe-guizzo-271b361a2/" target="_blank"><i class="bi bi-linkedin"></i> Linkedin</a>
                     </li>
                 </ul>
-                <img src="./assets/contact.svg" alt="contact" class="illustration-img" onContextMenu="return false;" draggable="false">
+                <img src="./assets/contact.svg" alt="objective">
             </div>
         </section>
     </main>
     <footer>
-        <p class="paragraph text-dark">
-            Desenvolvido por <i>Filipe Guizzo Borges</i>&copy;&reg;
-        </p>
+        <div class="social">
+            <ul class="social-list">
+                <li class="social-item">
+                    <a class="social-link" href="https://api.whatsapp.com/send/?phone=5548998683722&text&type=phone_number&app_absent=0" target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link" href="https://www.instagram.com/lipe_guizzo/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link" href="https://www.linkedin.com/in/filipe-guizzo-271b361a2/" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p> Developed by Filipe Guizzo Borges &#169;&#174;</p>
     </footer>
 </body>
 </html>
