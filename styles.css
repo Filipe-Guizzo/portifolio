@@ -65,10 +65,12 @@ header{
     margin: 10px;
     font-size: 25pt;
     border-bottom: 5px solid var(--primary);
+    text-align: center;
 }
 
 .information h3{
     font-size: 20pt;
+    text-align: center;
 }
 
 hr{
@@ -89,6 +91,7 @@ section{
     font-size: 20pt;
     color: var(--dark);
     border-bottom: 5px solid var(--primary);
+    text-align: center;
 }
 
 .content{
@@ -96,6 +99,8 @@ section{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .content p{
@@ -127,7 +132,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 30px;
 }
 
 .skill-item img{
@@ -155,6 +160,10 @@ section{
 .item{
     margin: 20px;
     font-size: 18pt;
+    color: var(--dark);
+}
+
+.item > a{
     color: var(--dark);
 }
 
@@ -197,4 +206,27 @@ footer{
     font-size: 20pt;
     color: var(--primary);
     border-radius: 50px;
+}
+
+@media screen and (max-width:500px){
+    header{
+        background-position: center;
+    }
+
+    .title{
+        margin: 50px;
+    }
+    
+    .content{
+        padding: 20px;
+    }
+    
+    .content img{
+        width: 70vw;
+        margin: 20px;
+    }
+
+    .social{
+        width: 50%;
+    }
 }
